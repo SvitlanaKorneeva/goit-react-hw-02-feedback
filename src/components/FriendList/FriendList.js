@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 const FriendList = ( {friends} ) => (
     <ul>
         {friends.map((el) => {
-            const { name, avatar } = el;
+            const { avatar, name, isOnline, id } = el;
             return (
             <FriendListItem
             key={el.id}
@@ -19,7 +19,6 @@ const FriendList = ( {friends} ) => (
     </ul>
 
 );
-
 
 export default FriendList;
 

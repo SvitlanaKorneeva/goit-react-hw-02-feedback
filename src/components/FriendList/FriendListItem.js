@@ -1,10 +1,12 @@
 import React from 'react';
+import s from './FriendListItem.module.css'
 
-const FriendListItem = ({avatar, name,})  => {
+const FriendListItem = ({avatar, name, isOnline})  => {
     return (
-        <li>
-            {name}
-            <img scr ={avatar} alt = {name} />
+        <li className ={s.item}>
+            <span className={s.status}></span>
+            <img className={s.avatar} scr ={avatar} alt = {name} width="48" />
+            <p className={s.name}>{name}</p>
         </li>
     );
 };
