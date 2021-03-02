@@ -1,49 +1,70 @@
 .profile {
-  background: grey;
+  background-color: #f5f4fa;;
   padding: 70px;
 }
 
 .description {
-  background: white;
-  padding: 50px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+  border-radius: 0px 0px 4px 4px;
 
 }
 
 .name {
-  color: red;
   text-align: center;
+  margin-bottom: 10px;
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
  .tag {
  text-align: center;
+ margin-bottom: 16px;
+ color: #757575;
+ font-weight: bold;
  }
+
 .location {
   text-align: center;
+  padding-bottom: 20px;
+ color: #757575;
+ font-weight: bold;
+ margin-bottom: 0;
 }
 
 .stats {
-  background: wheat;
   list-style: none;
   display: flex;
   align-items: center;
   margin: auto;
-  padding: 50px;
-  outline: 2px solid tomato;
-  justify-content: space-between;
+  padding: auto;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+  border-radius: 0px 0px 4px 4px;
   
 }
 
 .avatar {
   display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    border-radius: 50%;
 
 }
 
 .statList {
-  display: inline-block;
-  outline: 2px solid green;
-  color: blue;
-  margin: 50px;
+  text-align: center;
+  flex-wrap: wrap;
+  color: #757575;
+  padding: 50px;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+  border-radius: 0px 0px 4px 4px;
+  margin: 0%;
 
+}
+
+.quantity {
+  color: black;
+  font-size: bold;
 }

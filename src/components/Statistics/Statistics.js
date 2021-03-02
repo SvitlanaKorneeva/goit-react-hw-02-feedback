@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const Statistics = ({ title, stats }) => {
   console.log(title, stats);
   return (
-    <>
+    <div className={s.section}>
       <section className={s.statistics}>
         {title && <h2 className={s.title}>Upload stats</h2>}
 
@@ -34,7 +34,7 @@ const Statistics = ({ title, stats }) => {
           </li> */}
         </ul>
       </section>
-    </>
+    </div>
   );
 };
 
