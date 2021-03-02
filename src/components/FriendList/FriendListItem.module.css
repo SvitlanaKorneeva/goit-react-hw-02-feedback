@@ -3,11 +3,22 @@
   box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
     0px 2px 1px rgb(0 0 0 / 20%);
     list-style: none;
+    width: 540px;
+    display: flex;
+    align-items: center;
 }
 
 .status {
+    background: red;
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    color: tomato;
+}
+
+.offline {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: green;
+    margin-bottom: 30px;
 }
