@@ -1,0 +1,30 @@
+.transactionHistory {
+  width: 90%;
+  border: 2px solid #757575;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.title {
+  text-align: center;
+  background: rgb(120, 197, 228);
+  color: white;
+  font-weight: bold;
+}
+
+.item {
+  border: 1px solid black;
+  border-collapse: separate;
+}
+
+.item {
+  border: 1px solid #757575;
+  text-align: center;
+  padding: 10px;
+}
+
+.statList {
+  align-items: center;
+  margin: auto;
+  padding: auto;
+}
