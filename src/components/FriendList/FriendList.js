@@ -12,6 +12,8 @@ const FriendList = ( {friends} ) => (
             key={el.id}
             name={name}
             avatar={avatar}
+            isOnline={isOnline}
+            id={id}
             className={s.item}
           />
             );

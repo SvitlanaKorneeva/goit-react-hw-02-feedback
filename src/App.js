@@ -27,8 +27,6 @@ function App() {
       <TransactionHistory items={transactions} />
       <FriendList friends={friends} />
     
-    
-      <h1>hello my lovely Fe-25</h1>
     </>
   );
 }
