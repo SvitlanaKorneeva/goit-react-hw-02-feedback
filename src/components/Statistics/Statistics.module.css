@@ -1,0 +1,30 @@
+.section {
+    background-color: #c6c2d6;
+    height: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.statistics{
+background-color: white;
+margin: 50px;
+padding-top: 50px;
+}
+
+.statList {
+    list-style: none;
+    display: inline-flex;
+    text-align:center;
+   
+
+}
+.title{
+    text-align: center;
+}
+.item{
+    padding: 20px;
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+  border-radius: 0px 0px 4px 4px;
+  justify-content: center;
+ 
+}
