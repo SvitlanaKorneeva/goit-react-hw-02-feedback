@@ -56,9 +56,12 @@ countPositiveFeedbackPercentage = () => {
   }
   return ( 
     
-      < Section title="Please leave feedback">
-      <FeedbackOptions options = {['good', 'neutral', 'bad']} onLeaveFeedback ={this.onLeaveFeedback}/>
-      </ >
+    <Section title = "Please leave feedback">
+      <FeedbackOptions options = {['good', 'neutral', 'bad']} onLeaveFeedback ={this.onLeaveFeedback}/> 
+      </Section>
+
+      <Section title = "Statistics" >
+
       <Statistics
       
       good={good}
@@ -66,8 +69,10 @@ countPositiveFeedbackPercentage = () => {
       bad={bad} 
       total={total} 
       positivePercentage={positivePercentage} />
-    
+      </Section> 
   );
 }
 
+
+  
 export default App;
